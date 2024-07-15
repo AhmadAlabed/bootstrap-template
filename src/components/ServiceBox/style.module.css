@@ -1,0 +1,13 @@
+.service__box {
+  border-bottom: 2px solid;
+  box-shadow: 0 0 56px -8px #0000002b;
+  padding: 1.5em;
+  i {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

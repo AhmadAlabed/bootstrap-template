@@ -1,0 +1,59 @@
+.experience__box {
+  display: flex;
+  gap: 14px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  overflow: visible !important;
+  box-shadow: 0 0 0 5px #f2f3f7;
+  i {
+    color: white;
+  }
+}
+.vertical_line {
+  width: 4px;
+  background-color: #eeeeee;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+}
+.box {
+  padding: 20px;
+  background-color: #f2f3f7;
+  position: relative;
+  h3 {
+    margin-bottom: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #000;
+  }
+  h3 a {
+    font-size: 20px;
+    color: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  h3 span {
+    opacity: 0.4;
+    font-size: 16px;
+    margin-inline: 4px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #000000b3;
+  }
+  &::after {
+    content: " ";
+    position: absolute;
+    top: 22px;
+    left: -14px;
+    border-top: 14px solid transparent;
+    border-right: 14px solid #f2f3f7;
+    border-bottom: 14px solid transparent;
+  }
+}

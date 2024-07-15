@@ -1,0 +1,14 @@
+.button {
+  border: 1px solid #000 !important;
+  border-radius: 0 !important;
+}
+.button__text {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.button__style {
+  padding: 10px 15px;
+  border: 1px solid #000;
+  border-radius: 0;
+}

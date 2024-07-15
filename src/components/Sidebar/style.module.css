@@ -1,0 +1,85 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+  text-align: center;
+  color: #000000b3;
+  line-height: 1.8;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #f5f5f5;
+  height: 100%;
+}
+.close {
+  position: fixed;
+  opacity: 0;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .close {
+    transition: opacity 2s;
+    opacity: 1;
+  }
+}
+.profile__box {
+  width: 150px;
+  height: 150px;
+  min-width: 150px;
+  min-height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #2c98f0;
+}
+.profile__box img {
+  display: block;
+  width: 100%;
+}
+.profile__name a {
+  font-family: PlayfairDisplay, Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+.list__pages {
+  list-style: none;
+  text-align: center;
+  padding-inline: 0;
+}
+.list__pages li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  margin-block: 8px;
+  width: fit-content;
+}
+.list__pages li::after {
+  content: "";
+  background-color: #2c98f0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 100%;
+  width: 0%;
+  transition: all 0.6s;
+  height: 1px;
+}
+.list__pages li:hover::after {
+  width: 100%;
+}
+.list__pages li:hover a {
+  color: #2c98f0;
+}
+.list__pages li a {
+  text-decoration: none;
+  color: black;
+}
+.active a {
+  color: #2c98f0 !important;
+}

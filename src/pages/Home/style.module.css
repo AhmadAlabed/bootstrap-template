@@ -1,0 +1,19 @@
+.content__item1 {
+  background-image: url("/img_bg_1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.content__item2 {
+  background-image: url("/img_bg_2.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.text {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  a {
+    color: #2c98f0cc !important;
+    text-decoration: underline !important;
+  }
+}

@@ -12,8 +12,9 @@ function Home() {
             >
               <div className="container padding__main text-center text-md-start">
                 <Title>
-                  I am
-                  <br />a Designer
+                  Hi!
+                  <br />
+                  Im Jackson
                 </Title>
                 <p className={`${styles.text}`}>
                   100% html5 bootstrap templates Made <br />
@@ -31,9 +32,8 @@ function Home() {
             >
               <div className="container padding__main text-center text-md-start">
                 <Title>
-                  Hi!
-                  <br />
-                  Im Jackson
+                  I am
+                  <br />a Designer
                 </Title>
                 <p className={`${styles.text}`}>
                   100% html5 bootstrap templates Made <br />

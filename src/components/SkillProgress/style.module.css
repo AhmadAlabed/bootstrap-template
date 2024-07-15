@@ -12,7 +12,7 @@
   height: 10px;
   border-radius: 50%;
   background-color: inherit;
-  z-index: 999;
+  z-index: 9;
   position: absolute;
   right: -5px;
   top: 50%;
@@ -23,7 +23,7 @@
   font-size: 12px;
   font-weight: 700;
   color: inherit;
-  z-index: 999;
+  z-index: 9;
   position: absolute;
   right: -5px;
   bottom: 100%;

@@ -93,9 +93,37 @@ function Work() {
               />
             </div>
           </div>
-          <button type="button" class="btn btn-primary  mt-4 mb-4">
+          {/* showMore Start */}
+          <div className="collapse row gy-4 my-1" id="collapseExample1">
+            <div className="col-12 col-md-6">
+              <GalleryBox
+                imgSrc="/GalleryBox(5).jpg"
+                title="Work 05"
+                desc="Animation"
+              />
+            </div>
+            <div className="col-12 col-md-6">
+              <GalleryBox
+                imgSrc="/GalleryBox(6).jpg"
+                title="Work 06"
+                desc="Animation"
+              />
+            </div>
+          </div>
+          <a
+            className="btn btn-primary mt-4 mb-4"
+            data-bs-toggle="collapse"
+            href="#collapseExample1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample1"
+          >
             Show More
-          </button>
+          </a>
+          {/* showMore End */}
+          {/* <button type="button" class="btn btn-primary  mt-4 mb-4">
+            Show More
+          </button> */}
           {/* End */}
         </div>
         <div
@@ -135,9 +163,37 @@ function Work() {
               />
             </div>
           </div>
-          <button type="button" class="btn btn-primary  mt-4 mb-4">
+          {/* showMore Start */}
+          <div className="collapse row gy-4 my-1" id="collapseExample2">
+            <div className="col-12 col-md-6">
+              <GalleryBox
+                imgSrc="/GalleryBox(5).jpg"
+                title="Work 05"
+                desc="Animation"
+              />
+            </div>
+            <div className="col-12 col-md-6">
+              <GalleryBox
+                imgSrc="/GalleryBox(6).jpg"
+                title="Work 06"
+                desc="Animation"
+              />
+            </div>
+          </div>
+          <a
+            className="btn btn-primary mt-4 mb-4"
+            data-bs-toggle="collapse"
+            href="#collapseExample2"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample2"
+          >
             Show More
-          </button>
+          </a>
+          {/* showMore End */}
+          {/* <button type="button" class="btn btn-primary  mt-4 mb-4">
+            Show More
+          </button> */}
           {/* End */}
         </div>
         <div
@@ -177,9 +233,37 @@ function Work() {
               />
             </div>
           </div>
-          <button type="button" class="btn btn-primary  mt-4 mb-4">
+          {/* showMore Start */}
+          <div className="collapse row gy-4 my-1" id="collapseExample3">
+            <div className="col-12 col-md-6">
+              <GalleryBox
+                imgSrc="/GalleryBox(5).jpg"
+                title="Work 05"
+                desc="Animation"
+              />
+            </div>
+            <div className="col-12 col-md-6">
+              <GalleryBox
+                imgSrc="/GalleryBox(6).jpg"
+                title="Work 06"
+                desc="Animation"
+              />
+            </div>
+          </div>
+          <a
+            className="btn btn-primary mt-4 mb-4"
+            data-bs-toggle="collapse"
+            href="#collapseExample3"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample3"
+          >
             Show More
-          </button>
+          </a>
+          {/* showMore End */}
+          {/* <button type="button" class="btn btn-primary  mt-4 mb-4">
+            Show More
+          </button> */}
           {/* End */}
         </div>
       </div>
